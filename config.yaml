@@ -31,6 +31,14 @@ monitors:
     expectStatus: 200
     followRedirect: true
 
+  - id: aqua-hub
+    name: Aqua Hub
+    description: 'Official Aqua Hub for user applications.'
+    url: 'https://hub.itsaqua.net'
+    method: GET
+    expectStatus: 200
+    followRedirect: true
+    
   - id: aqua-api
     name: API
     description: 'Stats API'
